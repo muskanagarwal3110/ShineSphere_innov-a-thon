@@ -1,0 +1,337 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+#header {
+    color: whitesmoke;
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(58, 6, 77), rgb(218, 132, 248));
+    position: fixed;
+}
+
+#name {
+    float: left;
+
+}
+
+#nav {
+    float: right;
+}
+
+#logo {
+    margin: 10px;
+    padding-left: 15px;
+    height: 80px;
+    width: 80px;
+}
+
+#StartUp {
+    font-family: "Noto Sans Khojki", sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    position: relative;
+    bottom: 35px;
+}
+
+#nav {
+    margin-top: 30px;
+    margin-right: 25px;
+   
+}
+
+a {
+    color: whitesmoke;
+    font-size: 25px;
+    padding: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+#down {
+    position: relative;
+    top: 5px;
+    left: 4px;
+}
+
+ h1 {
+    font-size: 40px;
+} 
+
+#h1 {
+    font-size: 55px;
+    color: rgb(58, 6, 77);
+}
+
+p {
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.popup {
+    display: none; 
+    position: absolute;
+    background-color: white;
+    color:rgb(58, 6, 77) ;
+    padding: 5px;
+    border: 1px solid #c384e4;
+    z-index: 999;
+    font-size: 10px;
+}
+.popup>h1{
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.popup.show {
+    display: block; 
+}
+.content {
+    padding-top: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(235, 210, 244);
+    z-index: 1;
+}
+
+#home-img {
+
+    height: 500px;
+    width: 500px;
+}
+
+.footer {
+    height: 150px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(58, 6, 77), rgb(218, 132, 248));
+    border: 2px solid rgb(82, 69, 82);
+}
+
+#what {
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.content2 {
+    background-image: url("backk.jpg");
+    background-size: cover;
+    height: fit-content;
+    width: 100%;
+}
+
+.pic1 {
+    /* height:300px ;*/
+    /* width:800px ;  */
+    padding-top: 40px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#box3,
+#box4,
+#box5,
+#box6 {
+    height: 300px;
+    width: 400px;
+    border-radius: 30px;
+    background-size: cover;
+    border: 2px solid whitesmoke;
+
+}
+
+#box3 {
+    background-image: url("ftbi1.jpg");
+}
+
+#box4 {
+    background-image: url("ftbi4.jpg");
+}
+
+#box5 {
+    background-image: url("ftbi2.jpeg");
+}
+
+#box6 {
+    background-image: url("ftbi5.jpeg");
+}
+
+.pic2 {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#txt {
+    height: 50px;
+    background-color: rgb(245, 245, 245, 0.5);
+    color: rgb(58, 6, 77);
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    box-shadow: 0 5px 10px rgba(37, 25, 41, 0.8);
+}
+
+.pic3 {
+    padding-top: 90px;
+    padding-bottom: 65px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#box7,
+#box8 {
+    height: 500px;
+    width: 400px;
+    border-radius: 30px;
+    border: 2px solid whitesmoke;
+
+}
+
+#box7 {
+    background-color: rgb(245, 245, 245, 0.5);
+    text-align: center;
+    color: rgb(58, 6, 77);
+}
+
+#box8 {
+    background: linear-gradient(to bottom, rgb(58, 6, 77, 0.6), rgb(218, 132, 248, 0.8));
+    text-align: center;
+    color: rgb(245, 245, 245);
+    cursor: pointer;
+}
+
+ul {
+    font-size: 25px;
+    padding-top: 45px;
+    font-weight: bold;
+}
+
+li {
+    padding: 12px;
+    list-style-type: none;
+}
+
+#logos {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#icon {
+    font-size: 32px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+#box7:hover {
+    background: linear-gradient(to bottom, rgb(58, 6, 77, 0.6), rgb(218, 132, 248, 0.8));
+    color: rgb(245, 245, 245, 0.6);
+}
+
+#box8:hover {
+    background: rgb(245, 245, 245, 0.5);
+    color: rgb(58, 6, 77);
+}
+
+#stud {
+    font-size: 35px;
+    padding-top: 12px;
+}
+
+.footer2 {
+    width: 100%;
+    height: fit-content;
+    background: linear-gradient(to right, rgb(58, 6, 77), rgb(218, 132, 248));
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 230px;
+}
+
+#btn1 {
+    height: 65px;
+    width: 250px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(58, 6, 77);
+    position: relative;
+    top: 220px;
+    left: 290px;
+}
+
+#btn2 {
+    height: 80px;
+    width: 353px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(58, 6, 77);
+}
+
+#btn3 {
+    height: 78px;
+    width: 380px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(58, 6, 77);
+    position: relative;
+    left: 60px;
+}
+
+#picture {
+    height: 400px;
+    width: 400px;
+    background-image: url("footer.png");
+    background-size: cover;
+
+}
+
+#mail {
+    align-self: flex-end;
+    position: relative;
+    top: 190px;
+    right: 610px;
+}
+
+#mailing {
+    position: relative;
+    bottom: 20px;
+    left: 60px;
+    font-size: 20px;
+    font-weight: bold;
+color: whitesmoke;
+}
+#StartUp-ly {
+    font-family: "Noto Sans Khojki", sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    position: relative;
+    bottom: 35px;
+    color: whitesmoke;
+}
